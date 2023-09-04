@@ -28,7 +28,7 @@ const Navbar = () => {
           <li className='cursor-pointer'>Prizes</li>
         </ul>
         {/* Conditionally render register button for md and above */}
-        <button className='md:block hidden border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600'>
+        <button className='reg-button'>
           Register
         </button>
       </div>
