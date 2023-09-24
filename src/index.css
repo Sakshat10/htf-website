@@ -61,6 +61,23 @@
     margin-bottom: 40px;
 }
 
+.text-hack2{
+    /* text-white md:text-7xl max-sm:text-5xl font-bold mb-5 */
+    font-family: 'Alone_in_space';
+    font-weight: 50px;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.track{
+    color:#76A3BE;
+}
+
+.number{
+    font-family: 'Alone_in_space';
+}
+
 .text-body{
     width: 500px;
     font-family: 'Ubuntu';

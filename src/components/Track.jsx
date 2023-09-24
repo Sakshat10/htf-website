@@ -77,22 +77,22 @@ export default function Track() {
 
 
       {activeSection === 0 && (
-      <section className="py-[9rem]" id="section-0">
+      <section className="py-[5rem]" id="section-0">
       <div className={`transition-max-h ease-in-out duration-300 ${
         activeSection === 0 ? "max-h-screen" : "max-h-0"
       }`}>
 
-      <h2 className="text-[20px] font-[500] px-[8rem] py-[2rem]">001</h2>
+      <h2 className=" text-[20px] font-[500] px-[8rem] py-[2rem]">001</h2>
       <div className="flex flex-row justify-between px-[8rem] py-[1rem]">
         <div className="flex flex-row items-center justify-between space-x-8">
-          <div className="text-[64px] font-[500] text-custom-500 text-center">
+          <div className="track text-[64px] font-[500] text-custom-500 text-center">
             TRACK
           </div>
           <div className="flex flex-row pl-12">
             <div className="flex flex-col  text-center relative">
               <div>
                 <div>
-                  <span className="text-[90px] font-500">BLOCKCHAIN</span>
+                  <span className="text-[90px] text-hack2 font-500">BLOCKCHAIN</span>
                 </div>
                 <div className="border-b w-[16rem] border-2 gray-600 border-custom-500"></div>
                 
@@ -124,7 +124,7 @@ export default function Track() {
 
       <div className="flex flex-col  px-[25rem] justify-between">
       <div className=" text-[18px] py-[2rem] w-3/4">Code a decentralized future through blockchain apps- innovate empower transform</div>
-      <div className=""> <button className='border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 text-white'>More Info</button></div>
+      <div className=""> <button className='roadmap-button'>More Info</button></div>
       </div>
 
       </div>
@@ -132,7 +132,7 @@ export default function Track() {
       )}
        
       {activeSection === 1 && (
-      <section className="py-[9rem]" id="section-1">
+      <section className="py-[5rem]" id="section-1">
       <div className={`transition-max-h ease-in-out duration-300 ${
         activeSection === 1 ? "max-h-screen" : "max-h-0"
       }`}>
@@ -140,14 +140,14 @@ export default function Track() {
       <h2 className="text-[20px] font-[500] px-[8rem] py-[2rem]">002</h2>
       <div className="flex flex-row justify-between px-[8rem] py-[1rem]">
         <div className="flex flex-row items-center justify-between space-x-8">
-          <div className="text-[64px] font-[500] text-custom-500 text-center">
+          <div className="track text-[64px] font-[500] text-custom-500 text-center">
             TRACK
           </div>
           <div className="flex flex-row pl-12">
             <div className="flex flex-col  text-center relative">
               <div>
                 <div>
-                  <span className="text-[90px] font-500">AI/ML</span>
+                  <span className="text-[90px] text-hack2 font-500">AI/ML</span>
                 </div>
                 <div className="border-b w-[16rem] border-2 gray-600 border-custom-500"></div>
                 
@@ -171,7 +171,7 @@ export default function Track() {
 
       <div className="flex flex-col  px-[25rem] justify-between">
       <div className=" text-[18px] py-[2rem] w-3/4">Forge innovative AI/ML solutions, leveraging algorithms and machine learning to reshape technology's frontier.</div>
-      <div className=""> <button className='border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 text-white'>More Info</button></div>
+      <div className=""> <button className='roadmap-button'>More Info</button></div>
       </div>
 
       </div>
@@ -180,7 +180,7 @@ export default function Track() {
 
 
       {activeSection === 2 && (
-      <section className="py-[9rem]" id="section-2">
+      <section className="py-[5rem]" id="section-2">
       <div className={`transition-max-h ease-in-out duration-300 ${
         activeSection === 2 ? "max-h-screen" : "max-h-0"
       }`}>
@@ -188,14 +188,14 @@ export default function Track() {
       <h2 className="text-[20px] font-[500] px-[8rem] py-[2rem]">003</h2>
       <div className="flex flex-row justify-between px-[8rem] py-[1rem]">
         <div className="flex flex-row items-center justify-between space-x-8">
-          <div className="text-[64px] font-[500] text-custom-500 text-center">
+          <div className="track text-[64px] font-[500] text-custom-500 text-center">
             TRACK
           </div>
           <div className="flex flex-row pl-12">
             <div className="flex flex-col  text-center relative">
               <div>
                 <div>
-                  <span className="text-[90px] font-500">CYBERSECURITY</span>
+                  <span className="text-[90px] text-hack2 font-500">CYBERSECURITY</span>
                 </div>
                 <div className="border-b w-[16rem] border-2 gray-600 border-custom-500"></div>
                 
@@ -219,7 +219,7 @@ export default function Track() {
 
       <div className="flex flex-col  px-[25rem] justify-between">
       <div className=" text-[18px] py-[2rem] w-3/4">Fortify digital realms: Innovate cybersecurity solutions for a safer, resilient tomorrow.</div>
-      <div className=""> <button className='border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 text-white'>More Info</button></div>
+      <div className=""> <button className='roadmap-button'>More Info</button></div>
       </div>
 
       </div>
@@ -229,22 +229,22 @@ export default function Track() {
 
 
       {activeSection === 3 && (
-      <section className="py-[9rem]" id="section-3">
+      <section className="py-[5rem]" id="section-3">
       <div className={`transition-max-h ease-in-out duration-300 ${
         activeSection === 3 ? "max-h-screen" : "max-h-0"
       }`}>
 
-      <h2 className="text-[20px] font-[500] px-[8rem] py-[2rem]">004</h2>
+      <h2 className="text-[20px] font-[500] px-[8rem]  py-[2rem]">004</h2>
       <div className="flex flex-row justify-between px-[8rem] py-[1rem]">
         <div className="flex flex-row items-center justify-between space-x-8">
-          <div className="text-[64px] font-[500] text-custom-500 text-center">
+          <div className="track text-[64px] font-[500] text-custom-500 text-center">
             TRACK
           </div>
           <div className="flex flex-row pl-12">
             <div className="flex flex-col  text-center relative">
               <div>
                 <div>
-                  <span className="text-[90px] font-500">HEALTHCARE</span>
+                  <span className="text-[90px] text-hack2 font-500">HEALTHCARE</span>
                 </div>
                 <div className="border-b w-[16rem] border-2 gray-600 border-custom-500"></div>
                 
@@ -268,7 +268,7 @@ export default function Track() {
 
       <div className="flex flex-col  px-[25rem] justify-between">
       <div className=" text-[18px] py-[2rem] w-3/4">Revolutionize healthcare: Develop solutions that enhance well-being, merging technology and compassion.</div>
-      <div className=""> <button className='border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 text-white'>More Info</button></div>
+      <div className=""> <button className='roadmap-button'>More Info</button></div>
       </div>
 
       </div>
@@ -276,22 +276,22 @@ export default function Track() {
       )}
 
       {activeSection === 4 && (
-      <section className="py-[9rem]" id="section-4">
+      <section className="py-[5rem]" id="section-4">
       <div className={`transition-max-h ease-in-out duration-300 ${
         activeSection === 4 ? "max-h-screen" : "max-h-0"
       }`}>
 
-      <h2 className="text-[20px] font-[500] px-[8rem] py-[2rem]">005</h2>
+      <h2 className="text-[20px] font-[500]  px-[8rem] py-[2rem]">005</h2>
       <div className="flex flex-row justify-between px-[8rem] py-[1rem]">
         <div className="flex flex-row items-center justify-between space-x-8">
-          <div className="text-[64px] font-[500] text-custom-500 text-center">
+          <div className="track text-[64px] font-[500] text-custom-500 text-center">
             TRACK
           </div>
           <div className="flex flex-row pl-12">
             <div className="flex flex-col  text-center relative">
               <div>
                 <div>
-                  <span className="text-[90px] font-500">AGRICULTURE</span>
+                  <span className="text-[90px] text-hack2 font-500">AGRICULTURE</span>
                 </div>
                 <div className="border-b w-[16rem] border-2 gray-600 border-custom-500"></div>
                 
@@ -315,7 +315,7 @@ export default function Track() {
 
       <div className="flex flex-col  px-[25rem] justify-between">
       <div className=" text-[18px] py-[2rem] w-3/4">Merge tech and earth's bounty: Innovate agri-solutions for sustainable growth.</div>
-      <div className=""> <button className='border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 text-white'>More Info</button></div>
+      <div className=""> <button className='roadmap-button'>More Info</button></div>
       </div>
 
       </div>
